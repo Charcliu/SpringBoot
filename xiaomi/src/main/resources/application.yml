@@ -29,3 +29,5 @@ mapper:
   mappers: com.fluently.xiaomi.dao
   not-empty: false
   identity: MYSQL
+logging:
+  config: classpath:logback-spring.xml
